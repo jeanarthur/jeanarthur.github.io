@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 95vw;
+    margin: 5px;
+}
+
+.container > * {
+    margin: 5px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.container.center {
+    align-items: center;
+}
+
+.background-primary-color {
+    background-color: cadetblue;
+}
+
+.background-secundary-color {
+    background-color: white;
+}
+
+.background-contrast-color {
+    background-color: darkcyan;
+}
+
+.rounded {
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+}
+
+#foto_perfil {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.information {
+    background-color: whitesmoke;
+}
+
+form > * {
+    margin: 5px;
+}

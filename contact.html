@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu_bar" class="container rounded center" style="position: absolute;">
+        <button id="menu_button" class="button rounded background-primary-color" onclick="toggleMenu()" style="position: absolute;">☰</button>
+        <div id="menu_list" style="visibility: hidden;">
+            <a class="rounded background-primary-color" href="index.html">Currículo</a>
+            <a class="rounded background-primary-color" href="contact.html">Contato</a>
+        </div>
+    </div>
+    <header class="container center rounded background-contrast-color">
+        <img src="img/profile.jpeg" alt="Foto" id="foto_perfil" class="rounded">
+        <div class="container vertical rounded background-primary-color">
+            <h1>Jean Arthur S. Almeida</h1>
+            <p>Rua ******** ******** ***** ** *****, nº *** | ******, Minas Gerais</p>
+            <p>Email: jean.arthursa@gmail.com | Telefone: (35) 9****-****</p>
+        </div>
+    </header>
+
+    <section class="information rounded container vertical center">
+        <h2 class="rounded center background-primary-color" style="text-align: center;">Formulário de Contato</h2>
+        <form class="vertical rounded center background-secundary-color" style="width: 50vw;">
+            <label>Nome:</label>
+            <input type="text" id="name" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Mensagem:</label>
+            <textarea title="Mensagem" id="message" required></textarea>
+
+            <input type="submit" class="rounded button background-primary-color" onclick="sendMessage()"></input>
+        </form>
+    </section>
+
+    <footer  class="container rounded background-primary-color">
+        <p>© 2023 Jean Arthur S. Almeida. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="behaviour.js"></script>
+</body>
+</html>
