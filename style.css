@@ -1,17 +1,23 @@
+html{
+    font-size: 62,5%;
+}
+
 body {
     background-color: lightgray;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: flex-start;
-    width: 95vw;
-    margin: 5px;
+    width: 98%;
+    margin: 0.3rem;
 }
 
 .container > * {
-    margin: 5px;
+    margin: 0.3rem;
 }
 
 .vertical {
@@ -37,10 +43,10 @@ body {
 
 .rounded {
     border-radius: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 .button {
@@ -49,10 +55,10 @@ body {
 }
 
 #foto_perfil {
-    width: 128px;
-    height: 128px;
+    width: 9.5rem;
+    height: 9.5rem;
     border-radius: 50%;
-    margin: 10px;
+    margin: 0.5rem;
 }
 
 .information {
@@ -60,5 +66,9 @@ body {
 }
 
 form > * {
-    margin: 5px;
+    margin: 0.3rem;
+}
+
+.container > div, ul {
+    width: 98%;
 }
