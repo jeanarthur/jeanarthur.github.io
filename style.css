@@ -17,7 +17,7 @@ body {
     margin: 0.3rem;
 }
 
-.container > * {
+.container > div, section, button, h1, p {
     margin: 0.3rem;
 }
 
@@ -69,6 +69,10 @@ body {
 
 form > * {
     margin: 0.3rem;
+}
+
+ul > li {
+    margin-left: 1rem;
 }
 
 ul > li > a {
