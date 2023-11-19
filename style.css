@@ -69,10 +69,19 @@ form > * {
     margin: 0.3rem;
 }
 
-@media screen and (max-width: 400px){
+#menu_list > a {
+    text-decoration: none;
+    color:currentColor;
+}
+
+@media screen and (max-width: 480px){
     header, #menu_list {
         display: flex;
         flex-direction: column;
+    }
+
+    #menu_list > a {
+        margin-top: 0.5rem;
     }
 
     #foto_perfil {
